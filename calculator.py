@@ -30,11 +30,11 @@ if option == 'C':
     sleep(1)
     print ("Area: %.2f. \n%s" % (area, hint))
 elif option == 'T':
-        base = float(raw_input("Enter base: "))
-        height = float(raw_input("Enter height: "))
-        area = (0.5)*base*height
-        print "Uni Bi Tri..."
-        sleep(1)
-        print ("Area: %.2f. \n%s" % (area, hint))
+    base = float(raw_input("Enter base: "))
+    height = float(raw_input("Enter height: "))
+    area = (0.5)*base*height
+    print "Uni Bi Tri..."
+    sleep(1)
+    print ("Area: %.2f. \n%s" % (area, hint))
 else:
-		print 'You entered garbage so the program will now exit.'
+	print 'You entered garbage so the program will now exit.'
