@@ -12,6 +12,7 @@ from math import pi
 from time import sleep
 from datetime import datetime
 
+#.now() is accessing the now content from the imported datetime module
 now = datetime.now()
 
 print 'Starting the calculator...'
